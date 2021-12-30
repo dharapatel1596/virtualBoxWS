@@ -34,9 +34,16 @@
     </group_state>
     <group_state name="grabbingPose" group="dofbot">
         <joint name="joint1" value="0" />
-        <joint name="joint2" value="-0.6509" />
-        <joint name="joint3" value="-0.755" />
-        <joint name="joint4" value="-0.8765" />
+        <joint name="joint2" value="0.698132" />
+        <joint name="joint3" value="-1.5708" />
+        <joint name="joint4" value="-1.5708" />
+        <joint name="joint5" value="0" />
+    </group_state>
+    <group_state name="top" group="dofbot">
+        <joint name="joint1" value="0" />
+        <joint name="joint2" value="-0.174533" />
+        <joint name="joint3" value="-0.698132" />
+        <joint name="joint4" value="-0.6981" />
         <joint name="joint5" value="0" />
     </group_state>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
